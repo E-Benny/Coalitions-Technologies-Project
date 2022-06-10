@@ -1,0 +1,314 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    height: 100vh;
+    background: url("https://www.altitude1260.com.au/wp-content/uploads/2018/10/Planning-A-Trip-To-The-Snowy-Mountains.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .first-link {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+  
+  .top-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .left-section {
+    float: left;
+    display: inline-block;
+  }
+  
+  .la-mount {
+    float: left;
+    transform: translate(-120px);
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .right-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    float: right;
+    align-items: center;
+    gap: 16px;
+    transform: translate(80px);
+  }
+  
+  .landing-page-text {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    font-size: 27px;
+  }
+  
+  .los-angeles-text {
+    color: #802b00;
+  }
+  
+  .mount-text {
+    color: #264d73;
+    letter-spacing: 4.9px
+  }
+  
+  /*Hairline Section */
+  .hairline-section {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .left-hairline {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 7px;
+  }
+  
+  .hairline-image {
+    float: left;
+    height: 40px;
+    border-radius: 50%;
+    
+  }
+  
+  .hairline-text {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+  }
+  
+  .hairline-link {
+    color: #264d73;
+    font-size: 14px;
+  }
+  
+  .right-hairline {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  /*History Page */
+  .history-page {
+    height: 800px;
+    background: url("https://images.unsplash.com/photo-1512273222628-4daea6e55abb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c25vdyUyMG1vdW50YWlufGVufDB8fDB8fA%3D%3D&w=1000&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative
+  }
+  
+  .history-text {
+    margin-top: 50px;
+    align-items: center;
+    width: 600px
+  }
+  
+  .history-little-text {
+    transform: translate(135px, -83px);
+    color: #bfbfbf;
+    text-transform: uppercase;
+  }
+  
+  .carousel-area {
+    bottom: 0;
+    position: absolute;
+    background: #336699;;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100px;
+     border: 1px solid rgba(209, 213, 219, 0.3);
+    backdrop-filter: blur(16px) saturate(180%);
+      -webkit-backdrop-filter: blur(16px) saturate(180%);
+      background-color: rgba(51, 102, 153, 0.75);
+  }
+  
+  .cell {
+    margin: 2px
+  }
+  
+  .hero-image {
+    height: 50px;
+  }
+  
+  .dots {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    transform: translate(-200px, 35px);
+    cursor: pointer;
+  }
+  
+  .dots:active {
+    background: grey;
+  }
+  
+  .climb-hairline {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    gap: 40px
+  }
+  
+  .climb-text {
+    width: 600px
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    position: relative;
+  }
+  
+  
+  .number-two-font {
+    font-size: 80px;
+    color: #bfbfbf;
+  }
+  
+  .climb-subtitle {
+    transform: translateY(30px);
+  }
+  
+  .climb-lorem {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-right: 70px;
+    font-size: 12px;
+    
+  }
+  
+  .mountain-nav {
+    background: #336699;
+    height: 40px
+  }
+  
+  .buttons {
+    margin-left: 25%;
+    height: 100%;
+  }
+  
+  button {
+    height: 100%;
+    border: none;
+    background: inherit;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #bfbfbf;
+    cursor: pointer;
+    padding: 10px;
+    transition: 1s;
+  }
+  
+  button:hover {
+    text-decoration: underline;
+    background: #bfbfbf;
+    color: #264d73;
+  }
+  
+  .schedule {
+   margin-left: 25%;
+   transform: translateY(50%);
+   width: 350px;
+   height: 200px;
+   backdrop-filter: blur(2px) saturate(189%);
+      -webkit-backdrop-filter: blur(2px) saturate(189%);
+      background-color: rgba(255, 255, 255, 0.78);
+      border: 12px;
+      border: 1px solid rgba(209, 213, 219, 0.3);
+  }
+  
+  .schedule-text{
+    text-transform: uppercase;
+    margin-top: 5%;
+    margin-left: 10%;
+    color: #336699;
+  }
+  
+  .inner-schedule {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 5%;
+  }
+  
+  .left-schedule {
+    margin-left: 10%;
+  }
+  
+  .last-section {
+    height: 800px;
+    background: url("https://c.stocksy.com/a/7Kw300/z9/939183.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .footer {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+    background: #336699;
+  }
+  
+  .left-footer {
+    display: flex;
+    position: relative;
+    gap: 12px;
+  }
+  
+  .footer-stuff {
+    text-transform: uppercase;
+    color: #6699cc;
+  }
+  
+  .right-footer {
+    text-transform: uppercase;
+    color: #6699cc;
+  }
+  
+  .footer-image {
+    border-radius: 50%;
+  }
